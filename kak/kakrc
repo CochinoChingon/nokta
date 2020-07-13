@@ -168,9 +168,7 @@ plug 'alexherbo2/connect.kak' %{
   map global user r %{:connect lf %val{buffile} <ret>} -docstring 'lf'
 }
 
-plug 'alexherbo2/explore.kak'
-
-plug 'alexherbo2/pad-number.kak'
+plug 'alexherbo2/auto-pairs.kak'
 
 plug 'alexherbo2/split-object.kak' %{
   map global normal <a-I> ': enter-user-mode split-object<ret>' -docstring 'split object mode'
@@ -216,10 +214,6 @@ plug 'delapouite/kakoune-hump' %{
   map global normal › ': extend-next-hump<ret>'     -docstring 'extend next hump'
 }
 
-plug 'delapouite/kakoune-i3' %{
-  map global user 3 ': enter-user-mode i3<ret>' -docstring 'i3 mode'
-}
-
 plug 'delapouite/kakoune-goto-file' %{
   map global goto f '<esc>: goto-file<ret>' -docstring 'file'
   map global goto F f -docstring 'file (legacy)'
@@ -228,10 +222,6 @@ plug 'delapouite/kakoune-goto-file' %{
 plug 'delapouite/kakoune-mirror' %{
   map global normal "'" ': enter-user-mode -lock mirror<ret>' -docstring 'mirror mode lock'
 }
-
-plug 'delapouite/kakoune-npm'
-
-plug 'delapouite/kakoune-palette'
 
 plug 'delapouite/kakoune-select-view' %{
   map global view s '<esc>: select-view<ret>' -docstring 'select view'
