@@ -1,0 +1,45 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "main.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "assets/icobig.png",
+         "16": "assets/icomini.png",
+         "32": "assets/icosmall.png",
+         "48": "assets/iconormal.png"
+      },
+      "default_popup": "index.html",
+      "default_title": "Smallpdf"
+   },
+   "content_scripts": [ {
+      "js": [ "script.js" ],
+      "matches": [ "http://*/*", "https://*/*", "ftp://*/*", "file://*/*" ],
+      "run_at": "document_idle"
+   }, {
+      "js": [ "lib.js" ],
+      "matches": [ "https://mail.google.com/*", "https://inbox.google.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "default_locale": "en",
+   "description": "Smart PDF converter which definitely will make your life easy.",
+   "externally_connectable": {
+      "matches": [ "https://*.smallpdf.com/*", "https://smallpdf.com/*", "https://smallpdf-staging.com/*", "https://*.smallpdf-staging.com/*" ]
+   },
+   "icons": {
+      "128": "assets/icobig.png",
+      "16": "assets/icomini.png",
+      "32": "assets/icosmall.png",
+      "48": "assets/iconormal.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2MtD4XCXLi7BuSUorhyT8/s+9T6k54fSzRafssQ2VK/uP2yK6hpbVYGil7pTPIMMNdN4NWWHgyQFsnIXvtROCZdQVCzLRT3gZbYe34aqcpiuASqv4I9FguC2rFgynih+jyATKx7czLHKjdqKg94X/4dyhEIw3OBdYEB6CmV8QyRNAWa/ejaE7SxDSY7xjvFNLXkdMQCGBEf3lq2DsxJBS0zZOlXD9sOviCm9tsDG9sUR23WEtCn0i4l1/mPZTGTqcFzaM7KgfalPlDo0+Im8k4fQBH+Cs0UINpvu1UdiyDk6O/HdBXHY9zylGHsSkjhzAFzS6jGZtvGPdwi8Du5QWQIDAQAB",
+   "manifest_version": 2,
+   "name": "Smart PDF - PDF Converter",
+   "options_page": "delete.html",
+   "permissions": [ "storage", "notifications", "alarms", "webRequest", "webRequestBlocking", "webNavigation", "\u003Call_urls>" ],
+   "short_name": "Smallpdf",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1",
+   "web_accessible_resources": [ "assets/*", "images/*", "delete.html", "viewer.html", "lib/*" ]
+}

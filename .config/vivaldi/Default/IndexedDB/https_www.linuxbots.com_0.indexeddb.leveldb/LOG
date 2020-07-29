@@ -1,0 +1,5 @@
+2020/07/24-14:15:08.213 325d Reusing MANIFEST /home/gallo/.config/vivaldi/Default/IndexedDB/https_www.linuxbots.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/07/24-14:15:48.469 f71 Level-0 table #5: started
+2020/07/24-14:15:48.478 f71 Level-0 table #5: 6330 bytes OK
+2020/07/24-14:15:48.484 f71 Delete type=0 #3
+2020/07/24-14:15:48.484 f71 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

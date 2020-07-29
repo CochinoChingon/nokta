@@ -1,0 +1,8 @@
+user			    = el.gallo@me.com
+password      = ************ 
+
+ban_icon      = </3
+love_icon     = <3
+tired_icon    = zZz
+format_nowplaying_station = Radio %n
+format_list_song = %i) %a - %t%r (%d)%@%s

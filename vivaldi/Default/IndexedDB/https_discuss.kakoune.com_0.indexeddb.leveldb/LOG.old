@@ -1,0 +1,5 @@
+2020/07/26-19:37:51.680 2f38 Reusing MANIFEST /home/gallo/.config/vivaldi/Default/IndexedDB/https_discuss.kakoune.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/07/26-19:38:28.705 3236 Level-0 table #5: started
+2020/07/26-19:38:28.714 3236 Level-0 table #5: 53803 bytes OK
+2020/07/26-19:38:28.720 3236 Delete type=0 #3
+2020/07/26-19:38:28.721 3236 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

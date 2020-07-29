@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/popup/static/css/main.501f6a70.chunk.css",
+    "main.js": "/popup/static/js/main.8331f732.chunk.js",
+    "main.js.map": "/popup/static/js/main.8331f732.chunk.js.map",
+    "runtime-main.js": "/popup/static/js/runtime-main.118a5a6e.js",
+    "runtime-main.js.map": "/popup/static/js/runtime-main.118a5a6e.js.map",
+    "static/js/2.aac23e4c.chunk.js": "/popup/static/js/2.aac23e4c.chunk.js",
+    "static/js/2.aac23e4c.chunk.js.map": "/popup/static/js/2.aac23e4c.chunk.js.map",
+    "index.html": "/popup/index.html",
+    "precache-manifest.060cdeb24976123bbd559264245d4a59.js": "/popup/precache-manifest.060cdeb24976123bbd559264245d4a59.js",
+    "service-worker.js": "/popup/service-worker.js",
+    "static/css/main.501f6a70.chunk.css.map": "/popup/static/css/main.501f6a70.chunk.css.map",
+    "static/media/WatchListConfirmationModal.scss": "/popup/static/media/google-play-badge.6252e91f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.118a5a6e.js",
+    "static/js/2.aac23e4c.chunk.js",
+    "static/css/main.501f6a70.chunk.css",
+    "static/js/main.8331f732.chunk.js"
+  ]
+}

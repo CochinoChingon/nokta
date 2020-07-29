@@ -1,0 +1,761 @@
+<div id="settings-overlay-container" style="background-color: white; min-height: 100%; width: 100%; position: absolute; padding: 0px 20px 20px 20px;">
+
+	<div class="container is-fullhd">
+
+		<div style="display: flex; justify-content: flex-end; margin-top: 10px;">
+			<button id="settings-close-button" class="button">
+				<i class="fa fa-times" aria-hidden="true"></i>
+			</button>
+		</div>
+
+		<div class="columns">
+			<!-- <div class="column is-2">
+				<aside class="menu">
+				  <p class="menu-label">
+				    Settings
+				  </p>
+				  <ul class="menu-list">
+				    <li><a>Dashboard</a></li>
+				    <li><a>Customers</a></li>
+				  </ul>
+				  <p class="menu-label">
+				    Transactions
+				  </p>
+				  <ul class="menu-list">
+				    <li><a>Payments</a></li>
+				    <li><a>Transfers</a></li>
+				    <li><a>Balance</a></li>
+				  </ul>
+				</aside>
+			</div> -->
+
+			<div class="column is-6">
+
+				<div id="license-key-box" class="box" style="display: none;">
+					<p id="license-key-header" class="subtitle is-6" style="cursor: pointer; margin: 0;">
+						<span id="license-key-header-caret"><i class="fas fa-caret-up"></i></span>
+						&nbsp;<span id="license-key-header-text">Purchased Spreed PRO? <span style="text-decoration: underline;">Enter key here</span></span>
+					</p>
+					<div id="license-key-content" style="margin-top: 1.5rem; display: none;">
+						<div class="field has-addons">
+						  <div class="control is-expanded is-small">
+						    <input id="license-key" type="text" class="input is-small" placeholder="Enter key here">
+						  </div>
+						  <div class="control">
+						    <button id="license-key-submit" class="button is-primary is-small">
+						      Submit
+						    </button>
+						  </div>
+						</div>
+						<p id="license-key-message" style="display: none;" class="is-size-7"></p>
+					</div>
+				</div>
+
+				<div class="box">
+					<p class="subtitle">Color Scheme <i class="far fa-question-circle setting-tippy" data-tippy-content="<p>Pick among color schemes that were designed to maximize productivity, readability, and focus.</p><br><p>The Pro color schemes were designed to have enough contrast to meet the WCAG AAA guidelines for legibility. They also use colors that are highly rated for readability. Some themes  have less contrast than others to improve reading comfort over longer periods of time.</p>"></i></p>
+					<div class="columns">
+						<div class="column is-6">
+
+							<div class="color-scheme">
+								<div class="color-scheme-preview">
+									r<span class="highlighted-letter">e</span>ad
+								</div>
+								<div class="field">
+									<div class="control">
+										<label class="radio">
+											<input type="radio" name="currentColorScheme" class="" value="white-on-black">
+											White on Black
+								  		</label>
+									</div>
+								</div>
+							</div>
+
+							<div class="color-scheme">
+								<div class="color-scheme-preview">
+									r<span class="highlighted-letter">e</span>ad
+								</div>
+								<div class="field">
+									<div class="control">
+										<label class="radio">
+											<input type="radio" name="currentColorScheme" class="" value="beige">
+											Beige
+								  		</label>
+									</div>
+								</div>
+							</div>
+
+							<div class="color-scheme">
+								<div class="color-scheme-preview">
+									r<span class="highlighted-letter">e</span>ad
+								</div>
+								<div class="field">
+									<div class="control">
+										<label class="radio">
+											<input type="radio" name="currentColorScheme" class="" value="black-on-white-45">
+											Black on White Soft
+								  		</label>
+									</div>
+								</div>
+							</div>
+
+							<div class="color-scheme">
+								<div class="color-scheme-preview">
+									r<span class="highlighted-letter">e</span>ad
+								</div>
+								<div class="field">
+									<div class="control">
+										<label class="radio">
+											<input type="radio" name="currentColorScheme" class="" value="white-on-black-45">
+											White on Black Soft
+								  		</label>
+									</div>
+								</div>
+							</div>
+
+							<div class="color-scheme">
+								<div class="color-scheme-preview">
+									r<span class="highlighted-letter">e</span>ad
+								</div>
+								<div class="field">
+									<div class="control">
+										<label class="radio">
+											<input type="radio" name="currentColorScheme" class="" value="black-on-blue-45">
+											Black on Blue Soft
+								  		</label>
+									</div>
+								</div>
+							</div>
+
+							<div class="color-scheme">
+								<div class="color-scheme-preview">
+									r<span class="highlighted-letter">e</span>ad
+								</div>
+								<div class="field">
+									<div class="control">
+										<label class="radio">
+											<input type="radio" name="currentColorScheme" class="" value="white-on-blue">
+											White on Blue
+								  		</label>
+									</div>
+								</div>
+							</div>
+
+							<div class="color-scheme">
+								<div class="color-scheme-preview">
+									r<span class="highlighted-letter">e</span>ad
+								</div>
+								<div class="field">
+									<div class="control">
+										<label class="radio">
+											<input type="radio" name="currentColorScheme" class="" value="blue-on-blue-45">
+											Blue on Light Soft
+								  		</label>
+									</div>
+								</div>
+							</div>
+
+							<div class="color-scheme">
+								<div class="color-scheme-preview">
+									r<span class="highlighted-letter">e</span>ad
+								</div>
+								<div class="field">
+									<div class="control">
+										<label class="radio">
+											<input type="radio" name="currentColorScheme" class="" value="black-on-yellow-45">
+											Black on Yellow Soft
+								  		</label>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+
+
+
+						<div class="column is-6">
+
+							<div class="color-scheme">
+								<div class="color-scheme-preview">
+									r<span class="highlighted-letter">e</span>ad
+								</div>
+								<div class="field">
+									<div class="control">
+										<label class="radio">
+											<input type="radio" name="currentColorScheme" class="" value="black-on-white">
+											Black on White
+								  		</label>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="color-scheme">
+								<div class="color-scheme-preview">
+									r<span class="highlighted-letter">e</span>ad
+								</div>
+								<div class="field">
+									<div class="control">
+										<label class="radio">
+											<input type="radio" name="currentColorScheme" class="" value="black-on-white-max">
+											Black on White Max
+								  		</label>
+									</div>
+								</div>
+							</div>
+
+							<div class="color-scheme">
+								<div class="color-scheme-preview">
+									r<span class="highlighted-letter">e</span>ad
+								</div>
+								<div class="field">
+									<div class="control">
+										<label class="radio">
+											<input type="radio" name="currentColorScheme" class="" value="black-on-white-9">
+											Black on White 9
+								  		</label>
+									</div>
+								</div>
+							</div>
+
+							<div class="color-scheme">
+								<div class="color-scheme-preview">
+									r<span class="highlighted-letter">e</span>ad
+								</div>
+								<div class="field">
+									<div class="control">
+										<label class="radio">
+											<input type="radio" name="currentColorScheme" class="" value="black-on-blue">
+											Black on Blue
+								  		</label>
+									</div>
+								</div>
+							</div>
+
+							<div class="color-scheme">
+								<div class="color-scheme-preview">
+									r<span class="highlighted-letter">e</span>ad
+								</div>
+								<div class="field">
+									<div class="control">
+										<label class="radio">
+											<input type="radio" name="currentColorScheme" class="" value="white-on-blue-45">
+											White on Blue Soft
+								  		</label>
+									</div>
+								</div>
+							</div>
+
+							<div class="color-scheme">
+								<div class="color-scheme-preview">
+									r<span class="highlighted-letter">e</span>ad
+								</div>
+								<div class="field">
+									<div class="control">
+										<label class="radio">
+											<input type="radio" name="currentColorScheme" class="" value="blue-on-white-45">
+											Blue on White Soft
+								  		</label>
+									</div>
+								</div>
+							</div>
+
+							<div class="color-scheme">
+								<div class="color-scheme-preview">
+									r<span class="highlighted-letter">e</span>ad
+								</div>
+								<div class="field">
+									<div class="control">
+										<label class="radio">
+											<input type="radio" name="currentColorScheme" class="" value="blue-on-yellow-45">
+											Blue on Yellow Soft
+								  		</label>
+									</div>
+								</div>
+							</div>
+
+
+
+						</div>
+					</div>
+
+
+				</div>
+
+				<div class="box">
+					<p class="subtitle">Hotkeys <i class="far fa-question-circle setting-tippy" data-tippy-content="Change Spreed's hotkeys here."></i></p>
+
+					<div class="field is-horizontal hotkey-field">
+					  <div class="field-label is-normal">
+					    <label class="label">Open Spreed</label>
+					  </div>
+					  <div class="field-body">
+					    <div class="field">
+					      <p class="control">
+					        <a class="button is-small is-rounded is-fullwidth chrome-hotkey" name="open-spreed"></a>
+					      </p>
+					    </div>
+					  </div>
+					</div>
+
+					<div class="field is-horizontal hotkey-field">
+					  <div class="field-label is-normal">
+					    <label class="label">Toggle Full-screen</label>
+					  </div>
+					  <div class="field-body">
+					    <div class="field">
+					      <p class="control">
+					        <button class="button is-small is-rounded is-fullwidth hotkey" name="hotkeyFullscreen" type="submit"></button>
+					      </p>
+					    </div>
+					  </div>
+					</div>
+
+					<div class="field is-horizontal hotkey-field">
+					  <div class="field-label is-normal">
+					    <label class="label">Rewind</label>
+					  </div>
+					  <div class="field-body">
+					    <div class="field">
+					      <p class="control">
+					        <button class="button is-small is-rounded is-fullwidth hotkey" name="hotkeyRewind" type="submit"></button>
+					      </p>
+					    </div>
+					  </div>
+					</div>
+
+
+					<div class="field is-horizontal hotkey-field">
+					  <div class="field-label is-normal">
+					    <label class="label">Fast-forward</label>
+					  </div>
+					  <div class="field-body">
+					    <div class="field">
+					      <p class="control">
+					        <button class="button is-small is-rounded is-fullwidth hotkey" name="hotkeyForward" type="submit"></button>
+					      </p>
+					    </div>
+					  </div>
+					</div>
+
+
+					<div class="field is-horizontal hotkey-field">
+					  <div class="field-label is-normal">
+					    <label class="label">Reset</label>
+					  </div>
+					  <div class="field-body">
+					    <div class="field">
+					      <p class="control">
+					        <button class="button is-small is-rounded is-fullwidth hotkey" name="hotkeyReset" type="submit"></button>
+					      </p>
+					    </div>
+					  </div>
+					</div>
+
+
+					<div class="field is-horizontal hotkey-field">
+					  <div class="field-label is-normal">
+					    <label class="label">Close</label>
+					  </div>
+					  <div class="field-body">
+					    <div class="field">
+					      <p class="control">
+					        <button class="button is-small is-rounded is-fullwidth hotkey" name="hotkeyQuit" type="submit"></button>
+					      </p>
+					    </div>
+					  </div>
+					</div>
+
+
+
+					<!-- <div class="field is-horizontal hotkey-field">
+					  <div class="field-label is-normal">
+					    <label class="label">Hide</label>
+					  </div>
+					  <div class="field-body">
+					    <div class="field">
+					      <p class="control">
+					        <button class="button is-small is-rounded is-fullwidth hotkey" name="hotkeyHide" type="submit"></button>
+					      </p>
+					    </div>
+					  </div>
+					</div> -->
+
+
+					<hr>
+					<p class="subtitle is-6">WPM</p>
+					<div class="field is-horizontal hotkey-field">
+					  <div class="field-label is-normal">
+					    <label class="label">Increase</label>
+					  </div>
+					  <div class="field-body">
+					    <div class="field">
+					      <p class="control">
+					        <button class="button is-small is-rounded is-fullwidth hotkey" name="hotkeyWPMIncrease" type="submit"></button>
+					      </p>
+					    </div>
+					  </div>
+					</div>
+					<div class="field is-horizontal hotkey-field">
+					  <div class="field-label is-normal">
+					    <label class="label">Decrease</label>
+					  </div>
+					  <div class="field-body">
+					    <div class="field">
+					      <p class="control">
+					        <button class="button is-small is-rounded is-fullwidth hotkey" name="hotkeyWPMDecrease" type="submit"></button>
+					      </p>
+					    </div>
+					  </div>
+					</div>
+
+
+
+
+					<hr>
+					<p class="subtitle is-6">Chunk Size</p>
+					<div class="field is-horizontal hotkey-field">
+					  <div class="field-label is-normal">
+					    <label class="label">Increase</label>
+					  </div>
+					  <div class="field-body">
+					    <div class="field">
+					      <p class="control">
+					        <button class="button is-small is-rounded is-fullwidth hotkey" name="hotkeyChunkSizeIncrease" type="submit"></button>
+					      </p>
+					    </div>
+					  </div>
+					</div>
+					<div class="field is-horizontal hotkey-field">
+					  <div class="field-label is-normal">
+					    <label class="label">Decrease</label>
+					  </div>
+					  <div class="field-body">
+					    <div class="field">
+					      <p class="control">
+					        <button class="button is-small is-rounded is-fullwidth hotkey" name="hotkeyChunkSizeDecrease" type="submit"></button>
+					      </p>
+					    </div>
+					  </div>
+					</div>
+
+
+
+					<hr>
+					<p class="subtitle is-6">Font Size</p>
+					<div class="field is-horizontal hotkey-field">
+					  <div class="field-label is-normal">
+					    <label class="label">Increase</label>
+					  </div>
+					  <div class="field-body">
+					    <div class="field">
+					      <p class="control">
+					        <button class="button is-small is-rounded is-fullwidth hotkey" name="hotkeyFontSizeIncrease" type="submit"></button>
+					      </p>
+					    </div>
+					  </div>
+					</div>
+					<div class="field is-horizontal hotkey-field">
+					  <div class="field-label is-normal">
+					    <label class="label">Decrease</label>
+					  </div>
+					  <div class="field-body">
+					    <div class="field">
+					      <p class="control">
+					        <button class="button is-small is-rounded is-fullwidth hotkey" name="hotkeyFontSizeDecrease" type="submit"></button>
+					      </p>
+					    </div>
+					  </div>
+					</div>
+				</div>
+
+
+
+				<div class="box">
+					<div class="field">
+						<div class="control">
+							<input id="startTimerEnabled" type="checkbox" name="startTimerEnabled" class="switch" data-dependent-setting="startTimerLength">
+					  		<label class="label" for="startTimerEnabled">Start timer <i class="far fa-question-circle setting-tippy" data-tippy-content="Configure the countdown timer that starts when you Spreed new text."></i></label>
+						</div>
+					</div>
+
+					<div class="field">
+						<label class="label">Start timer length (sec)</label>
+						<input id="startTimerLength" name="startTimerLength" class="slider is-fullwidth is-primary has-output is-circle" step="1" min="1" max="5" type="range">
+						<output for="startTimerLength"></output>
+					</div>
+				</div>
+
+
+
+
+
+
+			</div>
+
+			<div class="column is-6">
+
+				<div class="box">
+					<p class="subtitle">Font <i class="far fa-question-circle setting-tippy" data-tippy-content="Use fonts that were designed for readability and comfort and used by companies like Apple, Google, Microsoft, Adobe, and Amazon.<br><br>Dyslexie is a font specifically designed to make reading easier for dyslexics."></i></p>
+					<div class="columns">
+						<div class="column is-6">
+							<div class="font">
+								<div class="field">
+									<div class="control">
+										<label class="radio">
+											<input type="radio" name="currentFont" class="" value="georgia">
+											Georgia
+								  		</label>
+									</div>
+								</div>
+							</div>
+
+							<div class="font">
+								<div class="field">
+									<div class="control">
+										<label class="radio">
+											<input type="radio" name="currentFont" class="" value="bookerly">
+											Bookerly
+								  		</label>
+									</div>
+								</div>
+							</div>
+							<div class="font">
+								<div class="field">
+									<div class="control">
+										<label class="radio">
+											<input type="radio" name="currentFont" class="" value="helvetica-neue">
+											Helvetica Neue
+								  		</label>
+									</div>
+								</div>
+							</div>
+							<div class="font">
+								<div class="field">
+									<div class="control">
+										<label class="radio">
+											<input type="radio" name="currentFont" class="" value="minion">
+											Minion
+								  		</label>
+									</div>
+								</div>
+							</div>
+
+							<div class="font">
+								<div class="field">
+									<div class="control">
+										<label class="radio">
+											<input type="radio" name="currentFont" class="" value="dyslexie">
+											Dyslexie
+								  		</label>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="column is-6">
+							<div class="font">
+								<div class="field">
+									<div class="control">
+										<label class="radio">
+											<input type="radio" name="currentFont" class="" value="arial">
+											Arial
+								  		</label>
+									</div>
+								</div>
+							</div>
+							<div class="font">
+								<div class="field">
+									<div class="control">
+										<label class="radio">
+											<input type="radio" name="currentFont" class="" value="open-sans">
+											Open Sans
+								  		</label>
+									</div>
+								</div>
+							</div>
+							<div class="font">
+								<div class="field">
+									<div class="control">
+										<label class="radio">
+											<input type="radio" name="currentFont" class="" value="garamond">
+											Garamond
+								  		</label>
+									</div>
+								</div>
+							</div>
+							<div class="font">
+								<div class="field">
+									<div class="control">
+										<label class="radio">
+											<input type="radio" name="currentFont" class="" value="merriweather">
+											Merriweather
+								  		</label>
+									</div>
+								</div>
+							</div>
+							<div class="font">
+								<div class="field">
+									<div class="control">
+										<label class="radio">
+											<input type="radio" name="currentFont" class="" value="tisa">
+											Tisa
+								  		</label>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+
+
+				<div class="box">
+					<div class="field">
+						<label class="label">WPM Interval <i class="far fa-question-circle setting-tippy" data-tippy-content="The interval that WPM increases or decreases by."></i></label>
+						<input id="wpmInterval" name="wpmInterval" class="slider is-fullwidth is-primary has-output is-circle" step="1" min="1" max="200" type="range">
+						<output for="wpmInterval"></output>
+					</div>
+				</div>
+
+
+
+				<div class="box">
+					<div class="field">
+						<div class="control">
+							<input id="highlightColorEnabled" type="checkbox" name="highlightColorEnabled" class="switch" data-dependent-setting="highlightColor">
+					  		<label class="label" for="highlightColorEnabled">Highlight center letter</label>
+						</div>
+					</div>
+					<div class="field">
+						<div class="control">
+							<input id="highlightColorUseCustom" type="checkbox" name="highlightColorUseCustom" class="switch" data-dependent-setting="highlightColor">
+					  		<label class="label" for="highlightColorUseCustom">Use custom highlight color</label>
+						</div>
+					</div>
+
+					<div class="field">
+					  <label class="label">Color</label>
+					  <div class="control">
+					  	<input type="hidden" name="highlightColor" data-hidden-type="color-picker">
+					  </div>
+					</div>
+				</div>
+
+
+
+				<div class="box">
+					<div class="field">
+						<div class="control">
+							<input id="backgroundColorEnabled" type="checkbox" name="backgroundColorEnabled" class="switch" data-dependent-setting="backgroundColor">
+					  		<label class="label" for="backgroundColorEnabled">Use custom background color</label>
+						</div>
+					</div>
+
+					<div class="field">
+					  <label class="label">Color</label>
+					  <div class="control">
+					  	<input type="hidden" name="backgroundColor" data-hidden-type="color-picker">
+					  </div>
+					</div>
+				</div>
+
+
+
+				<div class="box">
+					<div class="field">
+						<div class="control">
+							<input id="fontColorEnabled" type="checkbox" name="fontColorEnabled" class="switch" data-dependent-setting="fontColor">
+					  		<label class="label" for="fontColorEnabled">Use custom font color</label>
+						</div>
+					</div>
+
+					<div class="field">
+					  <label class="label">Color</label>
+					  <div class="control">
+					  	<input type="hidden" name="fontColor" data-hidden-type="color-picker">
+					  </div>
+					</div>
+				</div>
+
+
+
+				<div class="box">
+					<p class="subtitle">Micro-pauses <i class="far fa-question-circle setting-tippy" data-tippy-content="Micro-pauses are short pauses that make the speed reading experience more natural. Change the factor/multiplier that is applied for each type of micro-pause below.<br><br>Example: a factor of 0.5 for the Punctuation miro-pause means that the time to the next word/chunk will be increased by 50% when there is puntuation."></i></p>
+					<div class="field">
+						<div class="control">
+							<input id="micropauseNumbersEnabled" type="checkbox" name="micropauseNumbersEnabled" class="switch" data-dependent-setting="micropauseNumbersFactor">
+					  		<label class="label" for="micropauseNumbersEnabled">Large numbers</label>
+						</div>
+					</div>
+					<div class="field">
+						<label class="label">Large numbers factor</label>
+						<input id="micropauseNumbersFactor" name="micropauseNumbersFactor" class="slider is-fullwidth is-primary has-output is-circle" step="0.1" min="0.1" max="2" type="range">
+						<output for="micropauseNumbersFactor"></output>
+					</div>
+
+					<hr>
+
+					<div class="field">
+						<div class="control">
+							<input id="micropausePunctuationEnabled" type="checkbox" name="micropausePunctuationEnabled" class="switch" data-dependent-setting="micropausePunctuationFactor">
+					  		<label class="label" for="micropausePunctuationEnabled">Punctuation</label>
+						</div>
+					</div>
+					<div class="field">
+						<label class="label">Punctuation factor</label>
+						<input id="micropausePunctuationFactor" name="micropausePunctuationFactor" class="slider is-fullwidth is-primary has-output is-circle" step="0.1" min="0.1" max="2" type="range">
+						<output for="micropausePunctuationFactor"></output>
+					</div>
+
+					<hr>
+
+
+					<div class="field">
+						<div class="control">
+							<input id="micropauseLongWordsEnabled" type="checkbox" name="micropauseLongWordsEnabled" class="switch" data-dependent-setting="micropauseLongWordsFactor">
+					  		<label class="label" for="micropauseLongWordsEnabled">Long words</label>
+						</div>
+					</div>
+					<div class="field">
+						<label class="label">Long words factor</label>
+						<input id="micropauseLongWordsFactor" name="micropauseLongWordsFactor" class="slider is-fullwidth is-primary has-output is-circle" step="0.1" min="0.1" max="2" type="range">
+						<output for="micropauseLongWordsFactor"></output>
+					</div>
+				</div>
+
+
+				<div class="box">
+					<div class="field">
+						<label class="label">Letter spacing (px) <i class="far fa-question-circle setting-tippy" data-tippy-content="The number of pixels between each letter or character."></i></label>
+						<input id="letterSpacing" name="letterSpacing" class="slider is-fullwidth is-primary has-output is-circle" step="0.5" min="0" max="15" type="range">
+						<output for="letterSpacing"></output>
+					</div>
+				</div>
+
+
+				<div class="box">
+					<div class="field">
+						<div class="control">
+							<input id="textScrollerEnabled" type="checkbox" name="textScrollerEnabled" class="switch">
+					  		<label class="label" for="textScrollerEnabled">Text scroller <i class="far fa-question-circle setting-tippy" data-tippy-content="Toggle the horizontal bar that shows your reading progress and lets you scroll though text."></i></label>
+						</div>
+					</div>
+				</div>
+
+
+
+			</div>
+
+		</div>
+
+		<p id="spreed-version" class="is-size-7 has-text-grey"></p>
+
+
+	</div>
+
+</div>

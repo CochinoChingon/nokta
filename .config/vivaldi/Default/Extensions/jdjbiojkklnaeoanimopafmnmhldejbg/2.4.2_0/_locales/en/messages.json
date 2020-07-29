@@ -1,0 +1,140 @@
+{
+   "AUDIO_TO_HTML": {
+      "message": "Audio → HTML"
+   },
+   "FRAME_URL_TO_BBCODE": {
+      "message": "Frame link → BBCode"
+   },
+   "FRAME_URL_TO_HTML": {
+      "message": "Frame link → HTML"
+   },
+   "FRAME_URL_TO_MARKDOWN": {
+      "message": "Frame link → Markdown"
+   },
+   "FRAME_URL_TO_PLAIN": {
+      "message": "Frame link → Plaintext"
+   },
+   "IMAGE_TO_BBCODE": {
+      "message": "Image → BBCode"
+   },
+   "IMAGE_TO_DATA_URI_JPEG": {
+      "message": "Image → DataURI(jpeg)"
+   },
+   "IMAGE_TO_DATA_URI_PNG": {
+      "message": "Image → DataURI(png)"
+   },
+   "IMAGE_TO_DATA_URI_RAW": {
+      "message": "Image → DataURI(original format)"
+   },
+   "IMAGE_TO_DATA_URI_WEBP": {
+      "message": "Image → DataURI(webp)"
+   },
+   "IMAGE_TO_HTML": {
+      "message": "Image → HTML"
+   },
+   "IMAGE_TO_HTML_DATA_URI_JPEG": {
+      "message": "Image → HTML(DataURI jpeg)"
+   },
+   "IMAGE_TO_HTML_DATA_URI_PNG": {
+      "message": "Image → HTML(DataURI png)"
+   },
+   "IMAGE_TO_HTML_DATA_URI_WEBP": {
+      "message": "Image → HTML(DataURI webp)"
+   },
+   "IMAGE_TO_MARKDOWN": {
+      "message": "Image → Markdown"
+   },
+   "IMAGE_TO_MARKDOWN_DATA_URI_JPEG": {
+      "message": "Image → Markdown(DataURI jpeg)"
+   },
+   "IMAGE_TO_MARKDOWN_DATA_URI_PNG": {
+      "message": "Image → Markdown(DataURI png)"
+   },
+   "IMAGE_TO_MARKDOWN_DATA_URI_WEBP": {
+      "message": "Image → Markdown(DataURI webp)"
+   },
+   "LINK_TO_BBCODE": {
+      "message": "Link → BBCode"
+   },
+   "LINK_TO_HTML": {
+      "message": "Link → HTML"
+   },
+   "LINK_TO_MARKDOWN": {
+      "message": "Link → Markdown"
+   },
+   "Options_AbsoluteURL": {
+      "message": "Always absolute URL"
+   },
+   "Options_CommonMark": {
+      "message": "CommonMark"
+   },
+   "Options_Ghost": {
+      "message": "Ghost"
+   },
+   "Options_GitHubFlavoredMarkdown": {
+      "message": "GitHub Flavored Markdown"
+   },
+   "Options_MarkdownFlavor": {
+      "message": "Markdown Flavor"
+   },
+   "Options_OriginalURL": {
+      "message": "Original URL"
+   },
+   "Options_RelativeURL": {
+      "message": "Always relative URL(if possible)"
+   },
+   "Options_RootRelativeURL": {
+      "message": "Always root-relative URL(if possible)"
+   },
+   "Options_UrlFormat": {
+      "message": "URL Format"
+   },
+   "SELECTION_TO_BBCODE": {
+      "message": "Selection → BBCode"
+   },
+   "SELECTION_TO_HTML": {
+      "message": "Selection → HTML"
+   },
+   "SELECTION_TO_HTML_NO_ATTR": {
+      "message": "Selection → HTML(no attributes)"
+   },
+   "SELECTION_TO_HTML_ONLY_A_TAG": {
+      "message": "Selection → HTML(only \u003Ca> tag)"
+   },
+   "SELECTION_TO_MARKDOWN": {
+      "message": "Selection → Markdown"
+   },
+   "SELECTION_TO_PLAIN": {
+      "message": "Selection → Plaintext"
+   },
+   "SELECTION_TO_PLAIN_TRIMMED": {
+      "message": "Selection → Plaintext(trimmed)"
+   },
+   "SELECTION_TO_RAW_STRING": {
+      "message": "Selection → Raw strings"
+   },
+   "TAB_URL_TO_BBCODE": {
+      "message": "Tab link → BBCode"
+   },
+   "TAB_URL_TO_HTML": {
+      "message": "Tab link → HTML"
+   },
+   "TAB_URL_TO_MARKDOWN": {
+      "message": "Tab link → Markdown"
+   },
+   "TAB_URL_TO_PLAIN": {
+      "message": "Tab link → Plaintext"
+   },
+   "VIDEO_TO_HTML": {
+      "message": "Video → HTML"
+   },
+   "extensionBrowserActionTitle": {
+      "message": "Options"
+   },
+   "extensionDescription": {
+      "message": "Copy content from web powerful than ever before."
+   },
+   "extensionName": {
+      "message": "Copycat"
+   }
+}
