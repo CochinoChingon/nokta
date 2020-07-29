@@ -1,5 +1,0 @@
-2020/07/23-21:20:19.321 1192 Reusing MANIFEST /home/gallo/.config/vivaldi/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/07/23-21:20:52.828 1405 Level-0 table #5: started
-2020/07/23-21:20:52.848 1405 Level-0 table #5: 1726 bytes OK
-2020/07/23-21:20:52.854 1405 Delete type=0 #3
-2020/07/23-21:20:52.854 1405 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

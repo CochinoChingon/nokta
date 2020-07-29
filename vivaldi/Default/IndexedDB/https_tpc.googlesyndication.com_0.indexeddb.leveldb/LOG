@@ -1,5 +1,0 @@
-2020/07/22-02:33:38.424 568b Reusing MANIFEST /home/gallo/.config/vivaldi/Default/IndexedDB/https_tpc.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/07/22-02:33:43.885 2362 Level-0 table #5: started
-2020/07/22-02:33:43.890 2362 Level-0 table #5: 381 bytes OK
-2020/07/22-02:33:43.898 2362 Delete type=0 #3
-2020/07/22-02:33:43.899 2362 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

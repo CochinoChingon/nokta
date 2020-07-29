@@ -1,9 +1,0 @@
-2020/07/29-12:16:38.423 1988 Reusing MANIFEST /home/gallo/.config/vivaldi/Default/Local Storage/leveldb/MANIFEST-000001
-2020/07/29-12:16:38.423 1988 Recovering log #153
-2020/07/29-12:16:38.424 1988 Reusing old log /home/gallo/.config/vivaldi/Default/Local Storage/leveldb/000153.log 
-2020/07/29-12:50:27.725 4c94 Level-0 table #157: started
-2020/07/29-12:50:27.744 4c94 Level-0 table #157: 13117 bytes OK
-2020/07/29-12:50:27.751 4c94 Delete type=0 #153
-2020/07/29-13:04:09.455 4c94 Level-0 table #159: started
-2020/07/29-13:04:09.474 4c94 Level-0 table #159: 17326 bytes OK
-2020/07/29-13:04:09.480 4c94 Delete type=0 #156

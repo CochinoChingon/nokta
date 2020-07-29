@@ -1,9 +1,0 @@
-2020/07/28-20:49:02.247 3206 Reusing MANIFEST /home/gallo/.config/vivaldi/Default/IndexedDB/chrome-extension_klbibkeccnjlkjkiokjodocebajanakg_0.indexeddb.leveldb/MANIFEST-000001
-2020/07/28-20:49:02.247 3206 Recovering log #103
-2020/07/28-20:49:02.249 3206 Reusing old log /home/gallo/.config/vivaldi/Default/IndexedDB/chrome-extension_klbibkeccnjlkjkiokjodocebajanakg_0.indexeddb.leveldb/000103.log 
-2020/07/28-21:00:03.120 4054 Compacting 1@0 + 1@1 files
-2020/07/28-21:00:03.144 4054 Generated table #106@0: 2124 keys, 906656 bytes
-2020/07/28-21:00:03.144 4054 Compacted 1@0 + 1@1 files => 906656 bytes
-2020/07/28-21:00:03.149 4054 compacted to: files[ 0 1 1 0 0 0 0 ]
-2020/07/28-21:00:03.150 4054 Delete type=2 #101
-2020/07/28-21:00:03.150 4054 Delete type=2 #104
